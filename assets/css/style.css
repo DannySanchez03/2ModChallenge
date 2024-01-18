@@ -1,0 +1,265 @@
+* {
+
+}
+body {
+    margin: 0;
+    background-color: #EEF1FF;
+}
+
+.NavBar {
+    width: 100%;
+    display: inline-flex;
+    background-color: rgb(0, 17, 110);
+    color: white;
+    justify-content: space-between;
+}
+.NavBar h1 {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.NavBar ul {
+    margin-left: auto;
+    display: flex;
+    padding: 20px;
+    align-content: space-between;
+    list-style-type: none;
+}
+.NavBar ul li {
+    display: inline;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.NavBar a:link,a:visited,a:hover {
+    color: white;
+}
+
+.NavBar a:active {
+    color: black;
+}
+
+#hero-image {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(rgb(0, 17, 110), #EEF1FF);
+}
+
+#meta {
+    width: 20%;
+}
+#apple {
+    width: 12.5%;
+}
+#amazon {
+    padding-top: 2px;
+    width: 12.5%;
+}
+#netflix {
+    width: 13.9%;
+}
+#google {
+    width: 13%;
+}
+
+#whole-margin {
+    padding-left: 150px;
+    padding-right: 70px;
+}
+
+.body-format{
+    display: flex;
+    flex-direction: column;
+    /* align-items: end; */
+    margin-right: 500px;
+}
+
+#about-Me {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: #265073;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* margin: 30px auto 50px auto; */
+}
+
+.ab1 {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    /* padding-right: 10px; */
+    border-right: solid 4px;
+    font-size: 40px;
+}
+
+.ab1 h1 {
+    margin: 0;
+}
+
+.ab2 {
+    width: 800px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+#skills {
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* margin: 30px auto 50px auto; */
+}
+
+.skillh {
+    padding-right: 10px;
+    border-right: solid 4px;
+    font-size: 40px;
+    align-items: center;
+    color: #265073;
+}
+
+.skillsS {
+    width: 800px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.skill-w {
+    width: 160px;
+}
+
+
+#cpp {
+    width: 100%;
+    height: auto;
+}
+#html {
+    width: 100%;
+    height: auto;
+}
+#css {
+    width: 100%;
+    height: auto;
+}
+#js {
+    width: 100%;
+    height: auto;
+}
+#bs {
+    width: 100%;
+    height: auto;
+}
+
+/* work goes below here */
+#work {
+    display: flex;
+    justify-content: end;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* margin: 30px auto 50px auto; */
+}
+
+.workh {
+    display: flex;
+    justify-content: center;
+    /* padding-right: 10px; */
+    border-right: solid 4px;
+    font-size: 40px;
+    /* left: 0; */
+    color: #265073;
+}
+
+.workd {
+    width: 800px;
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
+    padding-left: 20px;
+}
+
+/* .deployed {
+    display: flex;
+} */
+
+.deployed img {
+    border: black 4px solid;
+    margin: 10px;
+    width: 800px;
+    height: auto;
+    /* height: 400px; */
+}
+
+.under {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+}
+
+.underSize {
+    width: 390px;
+}
+
+.underSize img {
+    border: black 4px solid;
+    margin: 10px;
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+}
+
+
+
+#contact {
+    display: flex;
+    justify-content: end;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* margin: 30px auto 50px auto; */
+}
+
+.c1 {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    /* padding-right: 10px; */
+    color: #265073;
+    border-right: solid 4px;
+    font-size: 40px;
+}
+
+.c1 h1 {
+    margin: 0;
+}
+
+.cont-links {
+    width: 800px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.cont-links p{
+    font-size: 22px;
+    font-weight: bold;
+    color: lightskyblue;
+}
+
+.cont-links a{
+    text-decoration: none;
+}
+
+#contact a:link, a:hover, a:visited {
+    color: lightskyblue;
+}
+
+#contact a:active {
+    color: black;
+}
+
+.phone, .email, .github{
+    border-bottom: solid black 2px;
+}
+
