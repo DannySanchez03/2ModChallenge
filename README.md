@@ -1,10 +1,11 @@
-# 2ModChallenge
-Module 2 Challenge
-Deployed: https://dannysanchez03.github.io/2ModChallenge/
+# Noob Portfolio
+2nd Challenge
+
+Deployed: [here](https://dannysanchez03.github.io/Noob-Portfolio/)
 
 ## Description
 
-In this Module 2 Challenge we were told to make a portfolio website about us.
+For this 2nd Challenge I had to make my own portfolio using just html and css, my portfolio had to have a header with anchor tags connected to a navebar, display some of the work I've done and I was given full control of how to make it look, so I expressed myself with what I knew at the time.
 
 ## Installation
 
